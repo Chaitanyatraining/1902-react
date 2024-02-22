@@ -1,0 +1,14 @@
+.card{
+    padding: 20px;
+    border: 2px solid blueviolet;
+    height: 200px;
+    width: 150px;
+}
+
+.card1{
+    padding: 20px;
+    border: 2px solid blueviolet;
+    height: 200px;
+    width: 150px;
+    background-color: yellow;
+}

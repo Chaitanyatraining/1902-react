@@ -1,0 +1,13 @@
+- folder structure
+- virtual DOM
+    - diffing algorithm
+    - Reconsiliation
+- JSX
+    - babel
+components
+    - functional components
+    - class components
+    - differece b/n functional and class
+what is render?
+what is props?
+
