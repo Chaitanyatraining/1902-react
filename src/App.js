@@ -4,6 +4,8 @@ import FuncComp from './FuncComp';
 import ClassComp from './Components/ClassComp';
 import Stylings from './Components/Stylings/Stylings';
 import Header from './Components/Header';
+import ListsandKeys from './Components/ListsandKeys';
+import Counter from './Components/Counter';
 
 function App() {
   const userData = [
@@ -62,7 +64,9 @@ function App() {
       <Header />
       {/* <FuncComp courseName='ReactJs' userData={userData} /> */}
       {/* <ClassComp courseName='ReactJs' /> */}
-      <Stylings />
+      {/* <Stylings /> */}
+      {/* <ListsandKeys /> */}
+      <Counter />
     </div>
   );
 }

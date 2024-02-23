@@ -10,4 +10,7 @@ components
     - differece b/n functional and class
 what is render?
 what is props?
-
+stylings
+list and keys
+fragments
+state 
