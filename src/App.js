@@ -6,6 +6,7 @@ import Stylings from './Components/Stylings/Stylings';
 import Header from './Components/Header';
 import ListsandKeys from './Components/ListsandKeys';
 import Counter from './Components/Counter';
+import ContactUs from './Components/ContactUs';
 
 function App() {
   const userData = [
@@ -66,7 +67,8 @@ function App() {
       {/* <ClassComp courseName='ReactJs' /> */}
       {/* <Stylings /> */}
       {/* <ListsandKeys /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <ContactUs />
     </div>
   );
 }
