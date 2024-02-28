@@ -7,6 +7,7 @@ import Header from './Components/Header';
 import ListsandKeys from './Components/ListsandKeys';
 import Counter from './Components/Counter';
 import ContactUs from './Components/ContactUs';
+import Routing from './Components/Routing/Routing';
 
 function App() {
   const userData = [
@@ -63,12 +64,14 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Routing />
+
       {/* <FuncComp courseName='ReactJs' userData={userData} /> */}
       {/* <ClassComp courseName='ReactJs' /> */}
       {/* <Stylings /> */}
       {/* <ListsandKeys /> */}
       {/* <Counter /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
     </div>
   );
 }
