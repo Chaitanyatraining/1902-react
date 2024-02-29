@@ -22,6 +22,9 @@ const Header = () => {
                                 <Link to='/counter' class="nav-link">Counter</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/lifecyclemethods' class="nav-link">Lifecyclemethod</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='/contactus' class="nav-link">ContactUs</Link>
                             </li>
                             <li class="nav-item">
