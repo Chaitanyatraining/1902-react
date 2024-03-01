@@ -14,3 +14,9 @@ stylings
 list and keys
 fragments
 state 
+fragments
+validation
+routing
+life cycle methods in class components
+-mouting
+-updating
