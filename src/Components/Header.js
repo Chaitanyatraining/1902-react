@@ -28,6 +28,12 @@ const Header = () => {
                                 <Link to='/pagination' class="nav-link">Pagination</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/usestatehook' class="nav-link">useStateHook</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/useeffecthook' class="nav-link">useEffectHook</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='/contactus' class="nav-link">ContactUs</Link>
                             </li>
                             <li class="nav-item">
