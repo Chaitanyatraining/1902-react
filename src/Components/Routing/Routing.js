@@ -8,6 +8,7 @@ import LifeCycleMethods from '../LifeCycleMethods'
 import Pagination from '../Pagination'
 import UseStateCounter from '../Hooks/UseStateCounter'
 import UseEffectHook from '../Hooks/UseEffectHook'
+import UseEffectPagination from '../Hooks/UseEffectPagination'
 
 const Routing = () => {
   return (
@@ -21,6 +22,7 @@ const Routing = () => {
             <Route path="pagination" element={<Pagination />}  />
             <Route path="usestatehook" element={<UseStateCounter />}  />
             <Route path="useeffecthook" element={<UseEffectHook />}  />
+            <Route path="useeffectpagination" element={<UseEffectPagination />}  />
         </Routes>
     </div>
   )

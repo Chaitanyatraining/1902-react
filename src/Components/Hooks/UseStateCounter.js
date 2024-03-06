@@ -1,8 +1,18 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 const UseStateCounter = () => {
     const [count, setCount] = useState(0)
 
+    useEffect(() => {
+      // const timer = setInterval(() => {
+      //   setCount((prevCount) => prevCount + 1)
+      // }, 1000)
+
+      // // unmounting
+      // return () => {
+      //   clearInterval(timer)
+      // }
+    }, [])
     // Rules of hooks
     // always call the hooks at the top level.
     // Don't call hooks inside loops, conditions or nested funcitons
