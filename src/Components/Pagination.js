@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Pagination extends Component {
     state={
         userData:[],
-        pageNumber:0
+        // pageNumber:0
     }
 
     componentDidMount(){
@@ -11,6 +11,8 @@ class Pagination extends Component {
     }
 
     getUsersData = async () => {
+        console.log(this.state)
+        
         const response = await fetch(`https://dummyapi.io/data/v1/user?page=${this.state.pageNumber}&limit=10`, {
            method:"GET",
            headers:{
@@ -25,11 +27,11 @@ class Pagination extends Component {
             // 0 != 4
             // 4 != 5
             // 5 != 5
-    componentDidUpdate(prevsProps, prevsState){
-        if(prevsState.pageNumber != this.state.pageNumber){
-            this.getUsersData()
-        }
-    }
+    // componentDidUpdate(prevsProps, prevsState){
+    //     if(prevsState.pageNumber != this.state.pageNumber){
+    //         this.getUsersData()
+    //     }
+    // }
 
   render() {
     return (

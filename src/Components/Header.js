@@ -37,6 +37,9 @@ const Header = () => {
                                 <Link to='/useeffectpagination' class="nav-link">UseEffectPagination</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/usecontext' class="nav-link">useContextHook</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='/contactus' class="nav-link">ContactUs</Link>
                             </li>
                             <li class="nav-item">
