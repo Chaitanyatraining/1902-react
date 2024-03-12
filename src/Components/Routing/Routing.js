@@ -10,6 +10,7 @@ import UseStateCounter from '../Hooks/UseStateCounter'
 import UseEffectHook from '../Hooks/UseEffectHook'
 import UseEffectPagination from '../Hooks/UseEffectPagination'
 import UseContextHook from '../Hooks/UseContextHook'
+import UseReducerHook from '../Hooks/UseReducerHook'
 
 const Routing = () => {
   return (
@@ -25,6 +26,7 @@ const Routing = () => {
             <Route path="useeffecthook" element={<UseEffectHook />}  />
             <Route path="useeffectpagination" element={<UseEffectPagination />}  />
             <Route path="usecontext" element={<UseContextHook />}  />
+            <Route path="usereducer" element={<UseReducerHook />}  />
         </Routes>
     </div>
   )
