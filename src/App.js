@@ -8,8 +8,13 @@ import ListsandKeys from './Components/ListsandKeys';
 import Counter from './Components/Counter';
 import ContactUs from './Components/ContactUs';
 import Routing from './Components/Routing/Routing';
+import UseRefHook from './Components/Hooks/UseRefHook';
+import { useState } from 'react';
+import Home from './Components/Home';
 
 function App() {
+  const [menuList, setMenuList] = useState(false)
+  console.log(menuList)
   const userData = [
     {
       "id": 1,
@@ -64,8 +69,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routing />
+      {menuList ? <ListsandKeys /> : <Home 
+      setMenuList={setMenuList}
+      
+      />}
+      {/* <Routing /> */}
 
+
+      {/* <UseRefHook /> */}
       {/* <FuncComp courseName='ReactJs' userData={userData} /> */}
       {/* <ClassComp courseName='ReactJs' /> */}
       {/* <Stylings /> */}

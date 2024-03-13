@@ -21,7 +21,6 @@ const UseReducerHook = () => {
     
   return (
     <div>
-
         <div>
         <ArrowLeftCircle size={20} 
         onClick={()=>{navigation(-1)}} 
